@@ -90,43 +90,88 @@
           },
           "blocks": {}
         },
-        "button_H9gpTf": {
-          "type": "button",
-          "name": "t:names.button",
+        "group_jzkLmh": {
+          "type": "group",
+          "name": "t:names.group",
           "settings": {
-            "label": "START YOU RITUAL - $25",
-            "link": "shopify://collections/all",
-            "open_in_new_tab": false,
-            "style_class": "button",
-            "width": "fit-content",
+            "content_direction": "row",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
             "custom_width": 100,
-            "width_mobile": "fit-content",
-            "custom_width_mobile": 100
-          },
-          "blocks": {}
-        },
-        "button_GQy4BP": {
-          "type": "button",
-          "name": "t:names.button",
-          "settings": {
-            "label": "TRY A SAMPLE",
-            "link": "shopify://collections/all",
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
             "open_in_new_tab": false,
-            "style_class": "button-secondary",
-            "width": "fit-content",
-            "custom_width": 100,
-            "width_mobile": "fit-content",
-            "custom_width_mobile": 100
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
           },
-          "blocks": {}
+          "blocks": {
+            "button_7BXhba": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "START YOU RITUAL - $25",
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            },
+            "button_9Pi9Pq": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "TRY A SAMPLE",
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "button-secondary",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "button_7BXhba",
+            "button_9Pi9Pq"
+          ]
         }
       },
       "block_order": [
         "text_fD8Czj",
         "text_YLPk4p",
         "text_czL489",
-        "button_H9gpTf",
-        "button_GQy4BP"
+        "group_jzkLmh"
       ],
       "name": "t:names.hero",
       "settings": {
@@ -163,110 +208,21 @@
         "padding-block-end": 72
       }
     },
-    "section_Vdq89x": {
-      "type": "section",
-      "blocks": {
-        "text_RGw4QU": {
-          "type": "text",
-          "name": "t:names.text",
-          "settings": {
-            "text": "<p>THE BLEND</p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "text_tVdRFd": {
-          "type": "text",
-          "name": "t:names.heading",
-          "settings": {
-            "text": "<p>Ingredients That <em>Actually Do Something</em></p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "h3",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "text_RGw4QU",
-        "text_tVdRFd"
-      ],
-      "name": "t:names.rich_text_section",
-      "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 25,
-        "section_width": "page-width",
-        "section_height": "small",
-        "section_height_custom": 50,
-        "color_scheme": "scheme-3",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 0,
-        "padding-block-end": 0
-      }
-    },
     "section_FwPTgL": {
       "type": "section",
       "blocks": {
-        "group_eMe3NA": {
+        "group_KPGzJR": {
           "type": "group",
-          "name": "t:names.column",
+          "name": "t:names.group",
           "settings": {
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 25,
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
@@ -289,100 +245,82 @@
             "link": "",
             "open_in_new_tab": false,
             "placeholder": "",
-            "padding-block-start": 10,
+            "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
           "blocks": {
-            "accordion_Qzkhip": {
-              "type": "accordion",
-              "name": "t:names.accordion",
+            "text_Lzj9M4": {
+              "type": "text",
+              "name": "t:names.text",
               "settings": {
-                "icon": "caret",
-                "dividers": true,
-                "type_preset": "h6",
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
+                "text": "<p>THE BLEND</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
-              "blocks": {
-                "accordion_row_AtmaxT": {
-                  "type": "_accordion-row",
-                  "settings": {
-                    "heading": "Green Mate",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "image_upload": "shopify://shop_images/Background.svg",
-                    "width": 12
-                  },
-                  "blocks": {}
-                },
-                "accordion_row_BbNXxb": {
-                  "type": "_accordion-row",
-                  "settings": {
-                    "heading": "Guarana Seed",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "image_upload": "shopify://shop_images/Background.svg",
-                    "width": 12
-                  },
-                  "blocks": {}
-                },
-                "accordion_row_BrKByp": {
-                  "type": "_accordion-row",
-                  "settings": {
-                    "heading": "Rosehip Peels",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "image_upload": "shopify://shop_images/Background.svg",
-                    "width": 12
-                  },
-                  "blocks": {}
-                },
-                "accordion_row_tLywAH": {
-                  "type": "_accordion-row",
-                  "settings": {
-                    "heading": "Guava & Cherry Bits",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "image_upload": "shopify://shop_images/Background.svg",
-                    "width": 12
-                  },
-                  "blocks": {}
-                }
+              "blocks": {}
+            },
+            "text_AJxTpE": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<p>Ingredients That <em>Actually Do Something</em></p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h3",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
               },
-              "block_order": [
-                "accordion_row_AtmaxT",
-                "accordion_row_BbNXxb",
-                "accordion_row_BrKByp",
-                "accordion_row_tLywAH"
-              ]
+              "blocks": {}
             }
           },
           "block_order": [
-            "accordion_Qzkhip"
+            "text_Lzj9M4",
+            "text_AJxTpE"
           ]
         },
-        "group_kDfaa3": {
+        "group_iaX3aF": {
           "type": "group",
-          "name": "t:names.column",
+          "name": "t:names.group",
           "settings": {
-            "content_direction": "column",
+            "content_direction": "row",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 25,
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 40,
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
@@ -405,96 +343,258 @@
             "link": "",
             "open_in_new_tab": false,
             "placeholder": "",
-            "padding-block-start": 10,
+            "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
           "blocks": {
-            "accordion_b8UdjR": {
-              "type": "accordion",
-              "name": "t:names.accordion",
+            "group_Jm7PGz": {
+              "type": "group",
+              "name": "t:names.column",
               "settings": {
-                "icon": "caret",
-                "dividers": true,
-                "type_preset": "h6",
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "flex-start",
+                "gap": 25,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
                 "inherit_color_scheme": true,
                 "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
                 "border_radius": 0,
-                "padding-block-start": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 10,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
               "blocks": {
-                "accordion_row_7N8drJ": {
-                  "type": "_accordion-row",
+                "accordion_Qzkhip": {
+                  "type": "accordion",
+                  "name": "t:names.accordion",
                   "settings": {
-                    "heading": "Chicory Root",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "image_upload": "shopify://shop_images/Background.svg",
-                    "width": 12
+                    "icon": "caret",
+                    "dividers": true,
+                    "type_preset": "h6",
+                    "inherit_color_scheme": true,
+                    "color_scheme": "",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
                   },
-                  "blocks": {}
-                },
-                "accordion_row_VPd4Wj": {
-                  "type": "_accordion-row",
-                  "settings": {
-                    "heading": "Sweet Blackberry Leaves",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "image_upload": "shopify://shop_images/Background.svg",
-                    "width": 12
+                  "blocks": {
+                    "accordion_row_AtmaxT": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "Green Mate",
+                        "open_by_default": false,
+                        "icon": "none",
+                        "image_upload": "shopify://shop_images/Background.svg",
+                        "width": 12
+                      },
+                      "blocks": {}
+                    },
+                    "accordion_row_BbNXxb": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "Guarana Seed",
+                        "open_by_default": false,
+                        "icon": "none",
+                        "image_upload": "shopify://shop_images/Background.svg",
+                        "width": 12
+                      },
+                      "blocks": {}
+                    },
+                    "accordion_row_BrKByp": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "Rosehip Peels",
+                        "open_by_default": false,
+                        "icon": "none",
+                        "image_upload": "shopify://shop_images/Background.svg",
+                        "width": 12
+                      },
+                      "blocks": {}
+                    },
+                    "accordion_row_tLywAH": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "Guava & Cherry Bits",
+                        "open_by_default": false,
+                        "icon": "none",
+                        "image_upload": "shopify://shop_images/Background.svg",
+                        "width": 12
+                      },
+                      "blocks": {}
+                    }
                   },
-                  "blocks": {}
-                },
-                "accordion_row_GFfhH9": {
-                  "type": "_accordion-row",
-                  "settings": {
-                    "heading": "Apple Bits & Natural Flavour",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "image_upload": "shopify://shop_images/Background.svg",
-                    "width": 12
-                  },
-                  "blocks": {}
-                },
-                "accordion_row_qkRTLn": {
-                  "type": "_accordion-row",
-                  "settings": {
-                    "heading": "Nothing Else",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "image_upload": "shopify://shop_images/Background_1.svg",
-                    "width": 12
-                  },
-                  "blocks": {}
+                  "block_order": [
+                    "accordion_row_AtmaxT",
+                    "accordion_row_BbNXxb",
+                    "accordion_row_BrKByp",
+                    "accordion_row_tLywAH"
+                  ]
                 }
               },
               "block_order": [
-                "accordion_row_7N8drJ",
-                "accordion_row_VPd4Wj",
-                "accordion_row_GFfhH9",
-                "accordion_row_qkRTLn"
+                "accordion_Qzkhip"
+              ]
+            },
+            "group_mGEa8q": {
+              "type": "group",
+              "name": "t:names.column",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "flex-start",
+                "gap": 25,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 10,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "accordion_b8UdjR": {
+                  "type": "accordion",
+                  "name": "t:names.accordion",
+                  "settings": {
+                    "icon": "caret",
+                    "dividers": true,
+                    "type_preset": "h6",
+                    "inherit_color_scheme": true,
+                    "color_scheme": "",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {
+                    "accordion_row_7N8drJ": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "Chicory Root",
+                        "open_by_default": false,
+                        "icon": "none",
+                        "image_upload": "shopify://shop_images/Background.svg",
+                        "width": 12
+                      },
+                      "blocks": {}
+                    },
+                    "accordion_row_VPd4Wj": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "Sweet Blackberry Leaves",
+                        "open_by_default": false,
+                        "icon": "none",
+                        "image_upload": "shopify://shop_images/Background.svg",
+                        "width": 12
+                      },
+                      "blocks": {}
+                    },
+                    "accordion_row_GFfhH9": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "Apple Bits & Natural Flavour",
+                        "open_by_default": false,
+                        "icon": "none",
+                        "image_upload": "shopify://shop_images/Background.svg",
+                        "width": 12
+                      },
+                      "blocks": {}
+                    },
+                    "accordion_row_qkRTLn": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "Nothing Else",
+                        "open_by_default": false,
+                        "icon": "none",
+                        "image_upload": "shopify://shop_images/Background_1.svg",
+                        "width": 12
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "accordion_row_7N8drJ",
+                    "accordion_row_VPd4Wj",
+                    "accordion_row_GFfhH9",
+                    "accordion_row_qkRTLn"
+                  ]
+                }
+              },
+              "block_order": [
+                "accordion_b8UdjR"
               ]
             }
           },
           "block_order": [
-            "accordion_b8UdjR"
+            "group_Jm7PGz",
+            "group_mGEa8q"
           ]
         }
       },
       "block_order": [
-        "group_eMe3NA",
-        "group_kDfaa3"
+        "group_KPGzJR",
+        "group_iaX3aF"
       ],
       "name": "t:names.multicolumn",
       "settings": {
-        "content_direction": "row",
+        "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "center",
         "vertical_alignment": "center",
@@ -517,8 +617,8 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 0,
-        "padding-block-end": 48
+        "padding-block-start": 100,
+        "padding-block-end": 100
       }
     },
     "section_9fYEC7": {
@@ -1051,7 +1151,6 @@
   },
   "order": [
     "hero_jVaWmY",
-    "section_Vdq89x",
     "section_FwPTgL",
     "section_9fYEC7"
   ]
