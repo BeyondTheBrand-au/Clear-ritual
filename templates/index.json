@@ -1637,6 +1637,7 @@
           "static": true,
           "settings": {
             "media_type": "image",
+            "image": "shopify://shop_images/Productshot.png",
             "link": "",
             "video_loop": true,
             "video_autoplay": false,
@@ -1719,7 +1720,7 @@
       },
       "name": "t:names.featured_product",
       "settings": {
-        "product": "",
+        "product": "yerba-mate-guarana-loose-leaf-blend",
         "layout": "media-left",
         "color_scheme": "scheme-3",
         "padding-block-start": 0,
