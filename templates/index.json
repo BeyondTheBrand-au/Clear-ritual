@@ -1597,7 +1597,7 @@
       ],
       "custom_css": [
         ".group-block {border-color: rgb(168 219 102);}",
-        ".custom-color {color: #A9DD66;}"
+        ".custom-color {color: #a9dd66 !important; }"
       ],
       "name": "t:names.multicolumn",
       "settings": {
