@@ -433,7 +433,7 @@
                 "accordion_row_7N8drJ": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Green Mate",
+                    "heading": "Chicory Root",
                     "open_by_default": false,
                     "icon": "none",
                     "image_upload": "shopify://shop_images/Background.svg",
@@ -444,7 +444,7 @@
                 "accordion_row_VPd4Wj": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Guarana Seed",
+                    "heading": "Sweet Blackberry Leaves",
                     "open_by_default": false,
                     "icon": "none",
                     "image_upload": "shopify://shop_images/Background.svg",
@@ -455,7 +455,7 @@
                 "accordion_row_GFfhH9": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Rosehip Peels",
+                    "heading": "Apple Bits & Natural Flavour",
                     "open_by_default": false,
                     "icon": "none",
                     "image_upload": "shopify://shop_images/Background.svg",
@@ -466,10 +466,10 @@
                 "accordion_row_qkRTLn": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Guava & Cherry Bits",
+                    "heading": "Nothing Else",
                     "open_by_default": false,
                     "icon": "none",
-                    "image_upload": "shopify://shop_images/Background.svg",
+                    "image_upload": "shopify://shop_images/Background_1.svg",
                     "width": 12
                   },
                   "blocks": {}
