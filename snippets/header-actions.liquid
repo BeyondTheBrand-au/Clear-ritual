@@ -7,16 +7,18 @@
 <header-actions
   {{- block.shopify_attributes -}}
 >
+ <a
+    href="{{ routes.all_products_collection_url }}"
+    class="header-actions__action header-actions__shop-total"
+    aria-label="Shop - {{ cart.total_price | money_without_trailing_zeros }}"
+  >
+
   {% if shop.customer_accounts_enabled %}
     {% render 'account-popover' %}
     {% render 'account-drawer' %}
   {% endif %}
 
-   <a
-    href="{{ routes.all_products_collection_url }}"
-    class="header-actions__action header-actions__shop-total"
-    aria-label="Shop - {{ cart.total_price | money_without_trailing_zeros }}"
-  >
+  
     <span class="header-actions__shop-total-text">
       Shop - {{ cart.total_price | money_without_trailing_zeros }}
     </span>
