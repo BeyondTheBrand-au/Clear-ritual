@@ -1199,14 +1199,14 @@
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
+                "type_preset": "custom",
+                "font": "var(--font-subheading--family)",
+                "font_size": "0.875rem",
+                "line_height": "tight",
                 "letter_spacing": "normal",
-                "case": "none",
+                "case": "uppercase",
                 "wrap": "pretty",
-                "color": "var(--color-foreground)",
+                "color": "var(--color-primary)",
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
@@ -1596,7 +1596,8 @@
         "group_kfYBNy"
       ],
       "custom_css": [
-        ".group-block {border-color: rgb(168 219 102);}"
+        ".group-block {border-color: rgb(168 219 102);}",
+        ".text-block {color: #a9dd66;}"
       ],
       "name": "t:names.multicolumn",
       "settings": {
