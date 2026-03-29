@@ -12,6 +12,16 @@
     {% render 'account-drawer' %}
   {% endif %}
 
+   <a
+    href="{{ routes.all_products_collection_url }}"
+    class="header-actions__action header-actions__shop-total"
+    aria-label="Shop - {{ cart.total_price | money_without_trailing_zeros }}"
+  >
+    <span class="header-actions__shop-total-text">
+      Shop - {{ cart.total_price | money_without_trailing_zeros }}
+    </span>
+  </a>
+
   {% if settings.cart_type == 'drawer' and template.name != 'cart' %}
     {% render 'cart-drawer' %}
   {% else %}
