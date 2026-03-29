@@ -2956,7 +2956,9 @@
         "group_C6J4rW",
         "group_RpNfD6"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".icon-block__media {color: #a9dd66;}"
+      ],
       "name": "t:names.multicolumn",
       "settings": {
         "content_direction": "column",
