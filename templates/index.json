@@ -6494,39 +6494,14 @@
           "type": "_content-without-appearance",
           "static": true,
           "settings": {
-            "horizontal_alignment_flex_direction_column": "flex-start",
+            "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "flex-start",
             "gap": 24
           },
           "blocks": {
-            "text_xAkCFt": {
-              "type": "text",
-              "name": "t:names.caption",
-              "settings": {
-                "text": "<p><strong>OUR STORY</strong></p>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "custom",
-                "font": "var(--font-body--family)",
-                "font_size": "0.875rem",
-                "line_height": "tight",
-                "letter_spacing": "normal",
-                "case": "uppercase",
-                "wrap": "pretty",
-                "color": "var(--color-primary)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "group_pyaDDP": {
+            "group_a8WzKQ": {
               "type": "group",
+              "name": "t:names.group",
               "settings": {
                 "content_direction": "column",
                 "vertical_on_mobile": true,
@@ -6558,10 +6533,10 @@
                 "show_badge_pills": false,
                 "badge_text_list": "No Crash|Rich in Antioxidants|1 Months Supply|Natural Caffeine",
                 "badge_border_thickness": 1,
-                "badge_border_color": "#a8b5aa",
-                "badge_text_color": "#6f7f72",
+                "badge_border_color": "#A8B5AA",
+                "badge_text_color": "#6F7F72",
                 "badge_transparent_background": true,
-                "badge_background_color": "#ffffff",
+                "badge_background_color": "#FFFFFF",
                 "badge_gap": 12,
                 "badge_padding_y": 8,
                 "badge_padding_x": 16,
@@ -6577,22 +6552,22 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "text_FfUB9g": {
+                "text_HRUDCi": {
                   "type": "text",
-                  "name": "t:names.heading",
+                  "name": "t:names.caption",
                   "settings": {
-                    "text": "<p>Made Because<br/><em>Nothing Else Worked</em></p>",
+                    "text": "<p><strong>OUR STORY</strong></p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
-                    "type_preset": "h3",
+                    "type_preset": "custom",
                     "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
+                    "font_size": "0.875rem",
+                    "line_height": "tight",
                     "letter_spacing": "normal",
-                    "case": "none",
+                    "case": "uppercase",
                     "wrap": "pretty",
-                    "color": "var(--color-foreground)",
+                    "color": "var(--color-primary)",
                     "background": false,
                     "background_color": "#00000026",
                     "corner_radius": 0,
@@ -6603,56 +6578,139 @@
                   },
                   "blocks": {}
                 },
-                "text_QKTbHN": {
-                  "type": "text",
+                "group_CJKJFy": {
+                  "type": "group",
                   "settings": {
-                    "text": "<p>Coffee was giving me jitters, crashing my afternoon, and making me feel worse than before I drank it. I spent months looking for something with real, gradual energy that tasted good enough to become a habit. I couldn't find it, so I made it.</p>",
-                    "width": "fit-content",
-                    "max_width": "narrow",
-                    "alignment": "left",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
+                    "content_direction": "column",
+                    "vertical_on_mobile": true,
+                    "horizontal_alignment": "flex-start",
+                    "vertical_alignment": "center",
+                    "align_baseline": false,
+                    "horizontal_alignment_flex_direction_column": "flex-start",
+                    "vertical_alignment_flex_direction_column": "center",
+                    "gap": 12,
+                    "width": "fill",
+                    "custom_width": 100,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "custom_height": 100,
+                    "inherit_color_scheme": true,
+                    "color_scheme": "",
+                    "background_media": "none",
+                    "video_position": "cover",
+                    "background_image_position": "cover",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "toggle_overlay": false,
+                    "overlay_color": "#00000026",
+                    "overlay_style": "solid",
+                    "gradient_direction": "to top",
+                    "show_badge_pills": false,
+                    "badge_text_list": "No Crash|Rich in Antioxidants|1 Months Supply|Natural Caffeine",
+                    "badge_border_thickness": 1,
+                    "badge_border_color": "#a8b5aa",
+                    "badge_text_color": "#6f7f72",
+                    "badge_transparent_background": true,
+                    "badge_background_color": "#ffffff",
+                    "badge_gap": 12,
+                    "badge_padding_y": 8,
+                    "badge_padding_x": 16,
+                    "badge_font_size": 12,
+                    "badge_border_radius": 50,
+                    "badge_margin_top": 16,
+                    "link": "",
+                    "open_in_new_tab": false,
+                    "placeholder": "",
                     "padding-block-start": 0,
                     "padding-block-end": 0,
                     "padding-inline-start": 0,
                     "padding-inline-end": 0
                   },
+                  "blocks": {
+                    "text_FfUB9g": {
+                      "type": "text",
+                      "name": "t:names.heading",
+                      "settings": {
+                        "text": "<p>Made Because<br/><em>Nothing Else Worked</em></p>",
+                        "width": "fit-content",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "h3",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    },
+                    "text_QKTbHN": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Coffee was giving me jitters, crashing my afternoon, and making me feel worse than before I drank it. I spent months looking for something with real, gradual energy that tasted good enough to become a habit. I couldn't find it, so I made it.</p>",
+                        "width": "fit-content",
+                        "max_width": "narrow",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_FfUB9g",
+                    "text_QKTbHN"
+                  ]
+                },
+                "button_MHUAMX": {
+                  "type": "button",
+                  "settings": {
+                    "label": "FOLLOW OUR STORY",
+                    "link": "shopify://collections/all",
+                    "open_in_new_tab": false,
+                    "style_class": "button",
+                    "width": "fit-content",
+                    "custom_width": 100,
+                    "width_mobile": "fit-content",
+                    "custom_width_mobile": 100
+                  },
                   "blocks": {}
                 }
               },
               "block_order": [
-                "text_FfUB9g",
-                "text_QKTbHN"
+                "text_HRUDCi",
+                "group_CJKJFy",
+                "button_MHUAMX"
               ]
-            },
-            "button_wQNrQh": {
-              "type": "button",
-              "settings": {
-                "label": "FOLLOW OUR STORY",
-                "link": "shopify://collections/all",
-                "open_in_new_tab": false,
-                "style_class": "button",
-                "width": "fit-content",
-                "custom_width": 100,
-                "width_mobile": "fit-content",
-                "custom_width_mobile": 100
-              },
-              "blocks": {}
             }
           },
           "block_order": [
-            "text_xAkCFt",
-            "group_pyaDDP",
-            "button_wQNrQh"
+            "group_a8WzKQ"
           ]
         }
       },
