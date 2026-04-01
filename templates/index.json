@@ -2032,10 +2032,26 @@
                     "custom_width_mobile": 100
                   },
                   "blocks": {}
+                },
+                "button_fcGg9Q": {
+                  "type": "button",
+                  "name": "t:names.button",
+                  "settings": {
+                    "label": "Subscription - 20% off",
+                    "link": "",
+                    "open_in_new_tab": false,
+                    "style_class": "button-secondary",
+                    "width": "fit-content",
+                    "custom_width": 100,
+                    "width_mobile": "fit-content",
+                    "custom_width_mobile": 100
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
-                "button_8LCWCD"
+                "button_8LCWCD",
+                "button_fcGg9Q"
               ]
             },
             "text_RtB7Th": {
