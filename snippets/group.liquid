@@ -55,7 +55,7 @@
     {% endif %}
   </div>
 
-  <div
+    <div
     class="
       group-block-content
       {% if request.design_mode %}group-block-content--design-mode{% endif %}
@@ -66,6 +66,24 @@
     style="{% render 'layout-panel-style', settings: settings %}"
   >
     {{- children -}}
+
+    {% if settings.badge_text_list != blank %}
+      {% assign badge_list = settings.badge_text_list | split: '|' %}
+      {% render 'badge-pills',
+        badges: badge_list,
+        border_color: settings.badge_border_color,
+        border_thickness: settings.badge_border_thickness,
+        text_color: settings.badge_text_color,
+        background_color: settings.badge_background_color,
+        transparent_background: settings.badge_transparent_background,
+        gap: settings.badge_gap,
+        padding_y: settings.badge_padding_y,
+        padding_x: settings.badge_padding_x,
+        font_size: settings.badge_font_size,
+        border_radius: settings.badge_border_radius,
+        margin_top: settings.badge_margin_top
+      %}
+    {% endif %}
   </div>
 </div>
 
