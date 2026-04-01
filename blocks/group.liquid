@@ -1,5 +1,3 @@
-
-
 {%- capture children %}
   {% content_for 'blocks' %}
 {% endcapture %}
@@ -432,6 +430,104 @@
       ],
       "default": "to top",
       "visible_if": "{{ block.settings.toggle_overlay and block.settings.overlay_style == 'gradient' }}"
+    },
+    {
+      "type": "header",
+      "content": "Badge pills"
+    },
+    {
+      "type": "textarea",
+      "id": "badge_text_list",
+      "label": "Badge texts",
+      "info": "Separate each badge with a | character",
+      "default": "No Crash|Rich in Antioxidants|1 Months Supply|Natural Caffeine"
+    },
+    {
+      "type": "range",
+      "id": "badge_border_thickness",
+      "label": "Badge border thickness",
+      "min": 1,
+      "max": 6,
+      "step": 1,
+      "default": 1
+    },
+    {
+      "type": "color",
+      "id": "badge_border_color",
+      "label": "Badge border colour",
+      "default": "#A8B5AA"
+    },
+    {
+      "type": "color",
+      "id": "badge_text_color",
+      "label": "Badge text colour",
+      "default": "#6F7F72"
+    },
+    {
+      "type": "checkbox",
+      "id": "badge_transparent_background",
+      "label": "Transparent background",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "badge_background_color",
+      "label": "Badge background colour",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "range",
+      "id": "badge_gap",
+      "label": "Space between badges",
+      "min": 4,
+      "max": 24,
+      "step": 1,
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "badge_padding_y",
+      "label": "Badge vertical padding",
+      "min": 4,
+      "max": 20,
+      "step": 1,
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "badge_padding_x",
+      "label": "Badge horizontal padding",
+      "min": 8,
+      "max": 32,
+      "step": 1,
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "badge_font_size",
+      "label": "Badge font size",
+      "min": 10,
+      "max": 20,
+      "step": 1,
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "badge_border_radius",
+      "label": "Badge border radius",
+      "min": 12,
+      "max": 50,
+      "step": 1,
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "badge_margin_top",
+      "label": "Space above badges",
+      "min": 0,
+      "max": 60,
+      "step": 1,
+      "default": 16
     },
     {
       "type": "header",
