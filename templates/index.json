@@ -2347,6 +2347,7 @@
                 "button_8LCWCD": {
                   "type": "button",
                   "name": "t:names.button",
+                  "disabled": true,
                   "settings": {
                     "label": "START YOUR RITUAL - $25",
                     "link": "shopify://products/yerba-mate-guarana-loose-leaf-blend",
