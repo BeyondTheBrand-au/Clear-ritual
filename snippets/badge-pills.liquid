@@ -13,7 +13,7 @@
       --badge-padding-x: {{ padding_x | default: 16 }}px;
       --badge-font-size: {{ font_size | default: 12 }}px;
       --badge-radius: {{ border_radius | default: 50 }}px;
-      margin-top: 16px;
+      margin-top: {{ margin_top | default: 16 }}px;
     "
   >
     {% for badge in badge_list %}
