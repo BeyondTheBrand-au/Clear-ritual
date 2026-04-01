@@ -143,12 +143,21 @@
             "padding-inline-end": 0
           },
           "blocks": {
+            "custom_liquid_FhftfA": {
+              "type": "custom-liquid",
+              "name": "t:names.custom_liquid",
+              "settings": {
+                "custom_liquid": "{% assign product_handle = 'yerba-mate-guarana-loose-leaf-blend' %}\n{% assign ritual_product = all_products[product_handle] %}\n{% assign first_variant = ritual_product.selected_or_first_available_variant %}\n\n{% if ritual_product != blank and first_variant != blank %}\n  <form method=\"post\" action=\"/cart/add\">\n    <input type=\"hidden\" name=\"id\" value=\"{{ first_variant.id }}\">\n    <input type=\"hidden\" name=\"quantity\" value=\"1\">\n\n    <button type=\"submit\" class=\"button button--primary\">\n      START YOU RITUAL - $25\n    </button>\n  </form>\n{% endif %}"
+              },
+              "blocks": {}
+            },
             "button_7BXhba": {
               "type": "button",
               "name": "t:names.button",
+              "disabled": true,
               "settings": {
                 "label": "START YOU RITUAL - $25",
-                "link": "shopify://collections/all",
+                "link": "shopify://products/yerba-mate-guarana-loose-leaf-blend",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",
@@ -158,9 +167,18 @@
               },
               "blocks": {}
             },
+            "custom_liquid_hPqmd4": {
+              "type": "custom-liquid",
+              "name": "t:names.custom_liquid",
+              "settings": {
+                "custom_liquid": "{% assign product_handle = 'yerba-mate-guarana-loose-leaf-blend' %}\n{% assign ritual_product = all_products[product_handle] %}\n{% assign first_variant = ritual_product.selected_or_first_available_variant %}\n\n{% if ritual_product != blank and first_variant != blank %}\n  <form method=\"post\" action=\"/cart/add\">\n    <input type=\"hidden\" name=\"id\" value=\"{{ first_variant.id }}\">\n    <input type=\"hidden\" name=\"quantity\" value=\"1\">\n\n    <button type=\"submit\" class=\"button-secondary\">\n      TRY A SAMPLE\n    </button>\n  </form>\n{% endif %}"
+              },
+              "blocks": {}
+            },
             "button_9Pi9Pq": {
               "type": "button",
               "name": "t:names.button",
+              "disabled": true,
               "settings": {
                 "label": "TRY A SAMPLE",
                 "link": "shopify://collections/all",
@@ -175,7 +193,9 @@
             }
           },
           "block_order": [
+            "custom_liquid_FhftfA",
             "button_7BXhba",
+            "custom_liquid_hPqmd4",
             "button_9Pi9Pq"
           ]
         }
