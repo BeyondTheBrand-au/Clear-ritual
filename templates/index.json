@@ -4621,7 +4621,8 @@
         "group_fMyJRP"
       ],
       "custom_css": [
-        ".icon-block__media {color: #a9dd66;}"
+        ".icon-block__media {color: #a9dd66;}",
+        ".divider__line {border-block-color: #A9DD66;}"
       ],
       "name": "t:names.multicolumn",
       "settings": {
@@ -6868,7 +6869,8 @@
         "group_BYb4JY"
       ],
       "custom_css": [
-        ".icon-block__media {color: #a9dd66;}"
+        ".icon-block__media {color: #a9dd66;}",
+        ".divider__line {border-block-color: #a9dd66;}"
       ],
       "name": "t:names.multicolumn",
       "settings": {
