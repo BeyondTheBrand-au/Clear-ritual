@@ -6664,7 +6664,7 @@
         "section_width": "full-width",
         "extend_media": true,
         "color_scheme": "scheme-3",
-        "badge_text_list": "No Crash|Rich in Antioxidants|1 Months Supply|Natural Caffeine",
+        "badge_text_list": "",
         "badge_border_thickness": 1,
         "badge_border_color": "#a8b5aa",
         "badge_text_color": "#6f7f72",
