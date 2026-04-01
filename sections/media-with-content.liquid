@@ -43,7 +43,27 @@
 >
   {% content_for 'block', type: '_media-without-appearance', id: 'media' %}
 
-  {% content_for 'block', type: '_content-without-appearance', id: 'content' %}
+    <div class="media-with-content__content">
+    {% content_for 'block', type: '_content-without-appearance', id: 'content' %}
+
+    {% assign badge_list = section.settings.badge_text_list | split: '|' %}
+
+    {% if section.settings.badge_text_list != blank %}
+      {% render 'badge-pills',
+        badges: badge_list,
+        border_color: section.settings.badge_border_color,
+        border_thickness: section.settings.badge_border_thickness,
+        text_color: section.settings.badge_text_color,
+        background_color: section.settings.badge_background_color,
+        transparent_background: section.settings.badge_transparent_background,
+        gap: section.settings.badge_gap,
+        padding_y: section.settings.badge_padding_y,
+        padding_x: section.settings.badge_padding_x,
+        font_size: section.settings.badge_font_size,
+        border_radius: section.settings.badge_border_radius
+      %}
+    {% endif %}
+  </div>
 </div>
 
 {% stylesheet %}
@@ -296,6 +316,95 @@
       "id": "color_scheme",
       "label": "t:settings.color_scheme",
       "default": "scheme-3"
+    },
+    {
+      "type": "header",
+      "content": "Badge pills"
+    },
+    {
+      "type": "textarea",
+      "id": "badge_text_list",
+      "label": "Badge texts",
+      "info": "Separate each badge with a | character",
+      "default": "No Crash|Rich in Antioxidants|1 Months Supply|Natural Caffeine"
+    },
+    {
+      "type": "range",
+      "id": "badge_border_thickness",
+      "label": "Badge border thickness",
+      "min": 1,
+      "max": 6,
+      "step": 1,
+      "default": 1
+    },
+    {
+      "type": "color",
+      "id": "badge_border_color",
+      "label": "Badge border colour",
+      "default": "#A8B5AA"
+    },
+    {
+      "type": "color",
+      "id": "badge_text_color",
+      "label": "Badge text colour",
+      "default": "#6F7F72"
+    },
+    {
+      "type": "checkbox",
+      "id": "badge_transparent_background",
+      "label": "Transparent background",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "badge_background_color",
+      "label": "Badge background colour",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "range",
+      "id": "badge_gap",
+      "label": "Space between badges",
+      "min": 4,
+      "max": 24,
+      "step": 1,
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "badge_padding_y",
+      "label": "Badge vertical padding",
+      "min": 4,
+      "max": 20,
+      "step": 1,
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "badge_padding_x",
+      "label": "Badge horizontal padding",
+      "min": 8,
+      "max": 32,
+      "step": 1,
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "badge_font_size",
+      "label": "Badge font size",
+      "min": 10,
+      "max": 20,
+      "step": 1,
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "badge_border_radius",
+      "label": "Badge border radius",
+      "min": 12,
+      "max": 50,
+      "step": 1,
+      "default": 50
     },
     {
       "type": "header",

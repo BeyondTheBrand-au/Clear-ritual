@@ -1,0 +1,58 @@
+{% assign badge_list = badges | default: blank %}
+
+{% if badge_list != blank %}
+  <div
+    class="badge-pills"
+    style="
+      --badge-border-color: {{ border_color | default: '#A8B5AA' }};
+      --badge-border-width: {{ border_thickness | default: 1 }}px;
+      --badge-text-color: {{ text_color | default: '#6F7F72' }};
+      --badge-bg: {% if transparent_background == true %}transparent{% else %}{{ background_color | default: '#FFFFFF' }}{% endif %};
+      --badge-gap: {{ gap | default: 12 }}px;
+      --badge-padding-y: {{ padding_y | default: 8 }}px;
+      --badge-padding-x: {{ padding_x | default: 16 }}px;
+      --badge-font-size: {{ font_size | default: 12 }}px;
+      --badge-radius: {{ border_radius | default: 50 }}px;
+      margin-top: 16px;
+    "
+  >
+    {% for badge in badge_list %}
+      {% if badge != blank %}
+        <span class="badge-pill">
+          {{ badge | strip }}
+        </span>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}
+
+<style>
+  .badge-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--badge-gap);
+  }
+
+  .badge-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--badge-padding-y) var(--badge-padding-x);
+    border: var(--badge-border-width) solid var(--badge-border-color);
+    border-radius: var(--badge-radius);
+    background: var(--badge-bg);
+    color: var(--badge-text-color);
+    font-size: var(--badge-font-size);
+    line-height: 1;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  @media screen and (max-width: 749px) {
+    .badge-pill {
+      white-space: normal;
+      text-align: center;
+    }
+  }
+</style>
