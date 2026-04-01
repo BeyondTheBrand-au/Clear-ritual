@@ -55,7 +55,7 @@
     {% endif %}
   </div>
 
-    <div
+  <div
     class="
       group-block-content
       {% if request.design_mode %}group-block-content--design-mode{% endif %}
@@ -67,7 +67,9 @@
   >
     {{- children -}}
 
-    {% if settings.badge_text_list != blank %}
+    {% assign cleaned_badge_text = settings.badge_text_list | strip %}
+
+    {% if settings.show_badge_pills and cleaned_badge_text != blank %}
       {% assign badge_list = settings.badge_text_list | split: '|' %}
       {% render 'badge-pills',
         badges: badge_list,
