@@ -1,0 +1,205 @@
+{% assign bg_alpha = section.settings.background_opacity | divided_by: 100.0 %}
+
+<div
+  class="badge-pills-section"
+  style="
+    --badge-border-color: {{ section.settings.border_color }};
+    --badge-border-width: {{ section.settings.border_thickness }}px;
+    --badge-text-color: {{ section.settings.text_color }};
+    --badge-bg: rgba({{ section.settings.background_color.red }}, {{ section.settings.background_color.green }}, {{ section.settings.background_color.blue }}, {% if section.settings.transparent_background %}0{% else %}{{ bg_alpha }}{% endif %});
+    --badge-gap: {{ section.settings.badge_gap }}px;
+    --badge-padding-y: {{ section.settings.padding_y }}px;
+    --badge-padding-x: {{ section.settings.padding_x }}px;
+    --badge-font-size: {{ section.settings.font_size }}px;
+    --badge-radius: {{ section.settings.border_radius }}px;
+  "
+>
+  <div class="badge-pills badge-pills--{{ section.settings.alignment }}">
+    {% for block in section.blocks %}
+      {% if block.settings.text != blank %}
+        <span class="badge-pill" {{ block.shopify_attributes }}>
+          {{ block.settings.text }}
+        </span>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+  .badge-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--badge-gap);
+  }
+
+  .badge-pills--left {
+    justify-content: flex-start;
+  }
+
+  .badge-pills--center {
+    justify-content: center;
+  }
+
+  .badge-pills--right {
+    justify-content: flex-end;
+  }
+
+  .badge-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--badge-padding-y) var(--badge-padding-x);
+    border: var(--badge-border-width) solid var(--badge-border-color);
+    border-radius: var(--badge-radius);
+    background: var(--badge-bg);
+    color: var(--badge-text-color);
+    font-size: var(--badge-font-size);
+    line-height: 1;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  @media screen and (max-width: 749px) {
+    .badge-pills {
+      gap: calc(var(--badge-gap) * 0.8);
+    }
+
+    .badge-pill {
+      white-space: normal;
+      text-align: center;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Badge Pills",
+  "max_blocks": 12,
+  "settings": [
+    {
+      "type": "select",
+      "id": "alignment",
+      "label": "Alignment",
+      "default": "left",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "border_thickness",
+      "label": "Border thickness",
+      "min": 1,
+      "max": 6,
+      "step": 1,
+      "default": 1
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Border colour",
+      "default": "#A8B5AA"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text colour",
+      "default": "#6F7F72"
+    },
+    {
+      "type": "checkbox",
+      "id": "transparent_background",
+      "label": "Transparent background",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background colour",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "range",
+      "id": "background_opacity",
+      "label": "Background opacity",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "padding_y",
+      "label": "Vertical padding",
+      "min": 6,
+      "max": 20,
+      "step": 1,
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "padding_x",
+      "label": "Horizontal padding",
+      "min": 10,
+      "max": 32,
+      "step": 1,
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "badge_gap",
+      "label": "Space between badges",
+      "min": 4,
+      "max": 24,
+      "step": 1,
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "font_size",
+      "label": "Font size",
+      "min": 10,
+      "max": 20,
+      "step": 1,
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "label": "Border radius",
+      "min": 12,
+      "max": 50,
+      "step": 1,
+      "default": 50
+    }
+  ],
+  "blocks": [
+    {
+      "type": "badge",
+      "name": "Badge",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Badge text",
+          "default": "Badge"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Badge Pills",
+      "blocks": [
+        { "type": "badge", "settings": { "text": "No Crash" } },
+        { "type": "badge", "settings": { "text": "Rich in Antioxidants" } },
+        { "type": "badge", "settings": { "text": "1 Months Supply" } },
+        { "type": "badge", "settings": { "text": "Natural Caffeine" } }
+      ]
+    }
+  ]
+}
+{% endschema %}
