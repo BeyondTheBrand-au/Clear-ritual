@@ -7353,32 +7353,90 @@
             "button_xVwpkw"
           ]
         },
-        "image_wtNDpW": {
-          "type": "image",
+        "group_gEnniM": {
+          "type": "group",
+          "name": "t:names.group",
           "settings": {
-            "image": "shopify://shop_images/Productshot.png",
-            "link": "",
-            "image_ratio": "adapt",
-            "width": "fit-content",
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
             "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
             "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "show_badge_pills": false,
+            "badge_text_list": "No Crash|Rich in Antioxidants|1 Months Supply|Natural Caffeine",
+            "badge_border_thickness": 1,
+            "badge_border_color": "#A8B5AA",
+            "badge_text_color": "#6F7F72",
+            "badge_transparent_background": true,
+            "badge_background_color": "#FFFFFF",
+            "badge_gap": 12,
+            "badge_padding_y": 8,
+            "badge_padding_x": 16,
+            "badge_font_size": 12,
+            "badge_border_radius": 50,
+            "badge_margin_top": 16,
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
             "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
-          "blocks": {}
+          "blocks": {
+            "image_iNHEU3": {
+              "type": "image",
+              "settings": {
+                "image": "shopify://shop_images/Productshot.png",
+                "link": "",
+                "image_ratio": "adapt",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_iNHEU3"
+          ]
         }
       },
       "block_order": [
         "group_PghhBa",
-        "image_wtNDpW"
+        "group_gEnniM"
       ],
       "name": "t:names.image_with_text",
       "settings": {
