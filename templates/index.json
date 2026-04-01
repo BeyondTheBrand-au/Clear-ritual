@@ -5334,6 +5334,9 @@
         "group_KUwyyr",
         "group_Ew8giq"
       ],
+      "custom_css": [
+        ".text-block {--text-align-default: left;}"
+      ],
       "name": "t:names.image_with_text",
       "settings": {
         "content_direction": "row",
