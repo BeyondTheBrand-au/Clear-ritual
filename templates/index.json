@@ -5397,6 +5397,14 @@
     "section_VMgGCD": {
       "type": "section",
       "blocks": {
+        "custom_liquid_KCTrWP": {
+          "type": "custom-liquid",
+          "name": "t:names.custom_liquid",
+          "settings": {
+            "custom_liquid": "<div id=\"how-to-brew\"></div>"
+          },
+          "blocks": {}
+        },
         "group_UmU8tX": {
           "type": "group",
           "name": "t:names.group",
@@ -6941,6 +6949,7 @@
         }
       },
       "block_order": [
+        "custom_liquid_KCTrWP",
         "group_UmU8tX",
         "group_RrmV9D",
         "divider_EmHfVH",
