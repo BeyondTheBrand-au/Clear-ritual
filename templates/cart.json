@@ -57,6 +57,11 @@
           "blocks": {}
         }
       },
+      "custom_css": [
+        ".quantity-selector, input {border-color: white; color: white;}",
+        ".quantity-minus {color: white;}",
+        ".quantity-plus {color: white;}"
+      ],
       "settings": {
         "section_width": "page-width",
         "color_scheme": "scheme-2",
