@@ -399,8 +399,9 @@
         "group_EzL6tM"
       ],
       "custom_css": [
-        ".email-signup__input {background-color: white;}",
-        ".email-signup__button {background-color: #a9dd66; color: black;}"
+        ".email-signup__input {background-color: white; align-items: flex-start;}",
+        ".email-signup__button {background-color: #a9dd66; color: black;}",
+        ".email-signup__input-group {align-items: flex-start;}"
       ],
       "name": "t:names.multicolumn",
       "settings": {
