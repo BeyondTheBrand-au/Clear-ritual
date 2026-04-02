@@ -291,7 +291,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "PRIVACY",
-                "link": "shopify://collections/all",
+                "link": "shopify://policies/privacy-policy",
                 "open_in_new_tab": false,
                 "style_class": "link",
                 "width": "fit-content",
