@@ -7014,6 +7014,14 @@
             "gap": 24
           },
           "blocks": {
+            "custom_liquid_46YTgM": {
+              "type": "custom-liquid",
+              "name": "t:names.custom_liquid",
+              "settings": {
+                "custom_liquid": "<div id=\"our-story\"></div>"
+              },
+              "blocks": {}
+            },
             "group_a8WzKQ": {
               "type": "group",
               "name": "t:names.group",
@@ -7225,6 +7233,7 @@
             }
           },
           "block_order": [
+            "custom_liquid_46YTgM",
             "group_a8WzKQ"
           ]
         }
