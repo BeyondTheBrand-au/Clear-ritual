@@ -1882,7 +1882,7 @@
           "type": "custom-liquid",
           "name": "t:names.custom_liquid",
           "settings": {
-            "custom_liquid": "<div id=\"the-product\"></div>"
+            "custom_liquid": "<div id=\"the-product\" style=\"scroll-margin-top: 100px;\"></div>"
           },
           "blocks": {}
         },
