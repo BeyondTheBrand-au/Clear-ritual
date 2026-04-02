@@ -57,7 +57,9 @@
           "blocks": {}
         }
       },
-      "custom_css": [],
+      "custom_css": [
+        "body {background-color: #013528;}"
+      ],
       "settings": {
         "section_width": "page-width",
         "color_scheme": "scheme-58084d4c-a86e-4d0a-855e-a0966e5043f7",
