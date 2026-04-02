@@ -306,7 +306,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "T&C'S",
-                "link": "shopify://collections/all",
+                "link": "shopify://policies/terms-of-service",
                 "open_in_new_tab": false,
                 "style_class": "link",
                 "width": "fit-content",
