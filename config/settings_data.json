@@ -63,6 +63,7 @@
     "cart_type": "drawer",
     "product_title_case": "default",
     "cart_price_font": "secondary",
+    "auto_open_cart_drawer": true,
     "show_cart_note": false,
     "show_add_discount_code": true,
     "drawer_color_scheme": "scheme-2",
