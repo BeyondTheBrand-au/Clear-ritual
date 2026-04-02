@@ -261,7 +261,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "INSTAGRAM",
-                "link": "shopify://collections/all",
+                "link": "https://www.instagram.com/clear_ritual/",
                 "open_in_new_tab": false,
                 "style_class": "link",
                 "width": "fit-content",
