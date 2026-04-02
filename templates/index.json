@@ -7865,8 +7865,17 @@
               },
               "blocks": {}
             },
+            "custom_liquid_ALr4AA": {
+              "type": "custom-liquid",
+              "name": "t:names.custom_liquid",
+              "settings": {
+                "custom_liquid": "{% assign product_handle = 'yerba-mate-guarana-loose-leaf-blend' %}\n{% assign ritual_product = all_products[product_handle] %}\n{% assign first_variant = ritual_product.selected_or_first_available_variant %}\n\n{% if ritual_product != blank and first_variant != blank %}\n  <form method=\"post\" action=\"/cart/add\">\n    <input type=\"hidden\" name=\"id\" value=\"{{ first_variant.id }}\">\n    <input type=\"hidden\" name=\"quantity\" value=\"1\">\n\n    <button type=\"submit\" class=\"button button--primary\">\n      START YOUR RITUAL - {{ first_variant.price | money }}\n    </button>\n  </form>\n{% endif %}"
+              },
+              "blocks": {}
+            },
             "button_xVwpkw": {
               "type": "button",
+              "disabled": true,
               "settings": {
                 "label": "START YOUR RITUAL - $25",
                 "link": "shopify://collections/all",
@@ -7883,6 +7892,7 @@
           "block_order": [
             "text_JbEYt4",
             "text_9NmJp6",
+            "custom_liquid_ALr4AA",
             "button_xVwpkw"
           ]
         },
