@@ -245,6 +245,14 @@
     "section_FwPTgL": {
       "type": "section",
       "blocks": {
+        "custom_liquid_3pch8X": {
+          "type": "custom-liquid",
+          "name": "t:names.custom_liquid",
+          "settings": {
+            "custom_liquid": "<div id=\"the-blend\"></div>"
+          },
+          "blocks": {}
+        },
         "group_KPGzJR": {
           "type": "group",
           "name": "t:names.group",
@@ -675,6 +683,7 @@
         }
       },
       "block_order": [
+        "custom_liquid_3pch8X",
         "group_KPGzJR",
         "group_iaX3aF"
       ],
