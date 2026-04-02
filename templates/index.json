@@ -1878,6 +1878,14 @@
     "section_HAzdJt": {
       "type": "section",
       "blocks": {
+        "custom_liquid_yGhT4J": {
+          "type": "custom-liquid",
+          "name": "t:names.custom_liquid",
+          "settings": {
+            "custom_liquid": "<div id=\"the-product\"></div>"
+          },
+          "blocks": {}
+        },
         "group_qVqrb9": {
           "type": "group",
           "name": "t:names.group",
@@ -2512,6 +2520,7 @@
         }
       },
       "block_order": [
+        "custom_liquid_yGhT4J",
         "group_qVqrb9",
         "group_BjtqPD"
       ],
