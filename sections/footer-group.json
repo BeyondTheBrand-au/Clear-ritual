@@ -276,7 +276,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "CONTACT",
-                "link": "shopify://collections/all",
+                "link": "shopify://pages/contact",
                 "open_in_new_tab": false,
                 "style_class": "link",
                 "width": "fit-content",
