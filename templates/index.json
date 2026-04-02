@@ -1324,6 +1324,14 @@
     "section_gjBHjP": {
       "type": "section",
       "blocks": {
+        "custom_liquid_MrPRFL": {
+          "type": "custom-liquid",
+          "name": "t:names.custom_liquid",
+          "settings": {
+            "custom_liquid": "<div id=\"the-benefits\"></div>"
+          },
+          "blocks": {}
+        },
         "group_RjYjtq": {
           "type": "group",
           "name": "t:names.group",
@@ -1830,6 +1838,7 @@
         }
       },
       "block_order": [
+        "custom_liquid_MrPRFL",
         "group_RjYjtq",
         "group_kfYBNy"
       ],
