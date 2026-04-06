@@ -498,7 +498,37 @@
                         "image_upload": "shopify://shop_images/Background.svg",
                         "width": 12
                       },
-                      "blocks": {}
+                      "blocks": {
+                        "text_UHLMTm": {
+                          "type": "text",
+                          "name": "t:names.text",
+                          "settings": {
+                            "text": "<p>The vibrant foundation of our blend. Packed with naturally occurring caffeine, vitamins, and antioxidants, our premium green mate delivers a smooth, earthy flavour and a sustained, jitter-free energy boost to keep you moving throughout the day.</p>",
+                            "width": "100%",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "h6",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_UHLMTm"
+                      ]
                     },
                     "accordion_row_BbNXxb": {
                       "type": "_accordion-row",
@@ -509,7 +539,37 @@
                         "image_upload": "shopify://shop_images/Background.svg",
                         "width": 12
                       },
-                      "blocks": {}
+                      "blocks": {
+                        "text_JwyL7R": {
+                          "type": "text",
+                          "name": "t:names.text",
+                          "settings": {
+                            "text": "<p>Sourced directly from the Amazon, this powerful seed is nature's ultimate energiser. It works in perfect harmony with the mate to enhance mental clarity, sharpen focus, and provide a long-lasting, uplifting vitality.</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "h6",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_JwyL7R"
+                      ]
                     },
                     "accordion_row_BrKByp": {
                       "type": "_accordion-row",
@@ -520,7 +580,37 @@
                         "image_upload": "shopify://shop_images/Background.svg",
                         "width": 12
                       },
-                      "blocks": {}
+                      "blocks": {
+                        "text_9AWgQE": {
+                          "type": "text",
+                          "name": "t:names.text",
+                          "settings": {
+                            "text": "<p>Bright and slightly tart, rosehip adds a refreshing zest to the blend. Known for being naturally rich in Vitamin C and antioxidants, it supports your overall wellness while bringing a delicate, fruity-floral note to your cup.</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "h6",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_9AWgQE"
+                      ]
                     },
                     "accordion_row_tLywAH": {
                       "type": "_accordion-row",
@@ -531,7 +621,37 @@
                         "image_upload": "shopify://shop_images/Background.svg",
                         "width": 12
                       },
-                      "blocks": {}
+                      "blocks": {
+                        "text_8bTi7B": {
+                          "type": "text",
+                          "name": "t:names.text",
+                          "settings": {
+                            "text": "<p>A vibrant burst of juicy flavour! The tropical sweetness of guava and the tangy punch of cherry mingle to create a mouth-watering, fruity profile that perfectly balances the earthy base of the yerba mate.</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "h6",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_8bTi7B"
+                      ]
                     }
                   },
                   "block_order": [
@@ -627,7 +747,37 @@
                         "image_upload": "shopify://shop_images/Background.svg",
                         "width": 12
                       },
-                      "blocks": {}
+                      "blocks": {
+                        "text_B6TJNN": {
+                          "type": "text",
+                          "name": "t:names.text",
+                          "settings": {
+                            "text": "<p>Adding a layer of rich, roasted depth, chicory root beautifully grounds the blend. It introduces a comforting, earthy undertone and offers natural prebiotic properties to help support a happy, balanced gut.</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "h6",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_B6TJNN"
+                      ]
                     },
                     "accordion_row_VPd4Wj": {
                       "type": "_accordion-row",
@@ -638,7 +788,37 @@
                         "image_upload": "shopify://shop_images/Background.svg",
                         "width": 12
                       },
-                      "blocks": {}
+                      "blocks": {
+                        "text_XKEtRC": {
+                          "type": "text",
+                          "name": "t:names.text",
+                          "settings": {
+                            "text": "<p>Nature's secret to a perfectly smooth brew. These delicate leaves provide a gentle, natural sweetness to the infusion without the need for added sugars, seamlessly rounding out the bolder flavours in the mix.</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "h6",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_XKEtRC"
+                      ]
                     },
                     "accordion_row_GFfhH9": {
                       "type": "_accordion-row",
@@ -649,7 +829,37 @@
                         "image_upload": "shopify://shop_images/Background.svg",
                         "width": 12
                       },
-                      "blocks": {}
+                      "blocks": {
+                        "text_xfG9cF": {
+                          "type": "text",
+                          "name": "t:names.text",
+                          "settings": {
+                            "text": "<p>Crisp apple bits lend a light, refreshing orchard sweetness. Paired with high-quality natural plant extracts, they tie all the botanicals and fruits together into one incredibly smooth and delicious blend.</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "h6",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_xfG9cF"
+                      ]
                     },
                     "accordion_row_qkRTLn": {
                       "type": "_accordion-row",
@@ -660,7 +870,37 @@
                         "image_upload": "shopify://shop_images/Background_1.svg",
                         "width": 12
                       },
-                      "blocks": {}
+                      "blocks": {
+                        "text_UhDfEr": {
+                          "type": "text",
+                          "name": "t:names.text",
+                          "settings": {
+                            "text": "<p>Nature provides everything we need, so we leave the rest out. We are committed to keeping our yerba mate completely free from artificial preservatives, hidden sugars, and synthetic fillers. From the first sip to the last, you are enjoying 100% plant-based purity.</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "h6",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_UhDfEr"
+                      ]
                     }
                   },
                   "block_order": [
