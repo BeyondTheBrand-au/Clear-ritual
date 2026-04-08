@@ -5865,10 +5865,10 @@
                 "link": "",
                 "open_in_new_tab": false,
                 "placeholder": "",
-                "padding-block-start": 30,
-                "padding-block-end": 30,
-                "padding-inline-start": 30,
-                "padding-inline-end": 30
+                "padding-block-start": 50,
+                "padding-block-end": 50,
+                "padding-inline-start": 50,
+                "padding-inline-end": 50
               },
               "blocks": {
                 "icon_VjQjP9": {
@@ -6047,10 +6047,10 @@
                 "link": "",
                 "open_in_new_tab": false,
                 "placeholder": "",
-                "padding-block-start": 30,
-                "padding-block-end": 30,
-                "padding-inline-start": 30,
-                "padding-inline-end": 30
+                "padding-block-start": 50,
+                "padding-block-end": 50,
+                "padding-inline-start": 50,
+                "padding-inline-end": 50
               },
               "blocks": {
                 "icon_z6pTVn": {
@@ -6229,10 +6229,10 @@
                 "link": "",
                 "open_in_new_tab": false,
                 "placeholder": "",
-                "padding-block-start": 30,
-                "padding-block-end": 30,
-                "padding-inline-start": 30,
-                "padding-inline-end": 30
+                "padding-block-start": 50,
+                "padding-block-end": 50,
+                "padding-inline-start": 50,
+                "padding-inline-end": 50
               },
               "blocks": {
                 "icon_gKb7hq": {
@@ -7260,7 +7260,7 @@
           "settings": {
             "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 24
+            "gap": 40
           },
           "blocks": {
             "custom_liquid_46YTgM": {
@@ -7282,7 +7282,7 @@
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
+                "gap": 60,
                 "width": "fit-content",
                 "custom_width": 100,
                 "width_mobile": "fill",
@@ -7505,7 +7505,7 @@
         "badge_padding_y": 8,
         "badge_padding_x": 16,
         "badge_font_size": 12,
-        "badge_border_radius": 50,
+        "badge_border_radius": 12,
         "padding-block-start": 0,
         "padding-block-end": 100
       }
