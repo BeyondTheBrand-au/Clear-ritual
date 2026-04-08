@@ -7723,7 +7723,7 @@
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "flex-start",
                 "gap": 25,
-                "width": "fill",
+                "width": "custom",
                 "custom_width": 100,
                 "width_mobile": "fill",
                 "custom_width_mobile": 100,
@@ -7827,6 +7827,61 @@
                       },
                       "blocks": {}
                     },
+                    "accordion_row_frRFLB": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "How do you approach sustainability?",
+                        "open_by_default": false,
+                        "icon": "none",
+                        "image_upload": "shopify://shop_images/Background.svg",
+                        "width": 12
+                      },
+                      "blocks": {}
+                    },
+                    "accordion_row_mc3FJR": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "How long does one pouch last?",
+                        "open_by_default": false,
+                        "icon": "none",
+                        "image_upload": "shopify://shop_images/Background.svg",
+                        "width": 12
+                      },
+                      "blocks": {}
+                    },
+                    "accordion_row_tRQVyK": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "What's your returns policy?",
+                        "open_by_default": false,
+                        "icon": "none",
+                        "image_upload": "shopify://shop_images/Background.svg",
+                        "width": 12
+                      },
+                      "blocks": {}
+                    },
+                    "accordion_row_tqwMCF": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "Are the ingredients tested?",
+                        "open_by_default": false,
+                        "icon": "none",
+                        "image_upload": "shopify://shop_images/Background.svg",
+                        "width": 12
+                      },
+                      "blocks": {}
+                    },
+                    "accordion_row_xBAFiA": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "How do I brew it?",
+                        "open_by_default": false,
+                        "icon": "none",
+                        "image_upload": "shopify://shop_images/Background.svg",
+                        "width": 12
+                      },
+                      "blocks": {}
+                    },
                     "accordion_row_T9aFUR": {
                       "type": "_accordion-row",
                       "settings": {
@@ -7844,6 +7899,11 @@
                     "accordion_row_EXHe8E",
                     "accordion_row_CppAct",
                     "accordion_row_VtNYrf",
+                    "accordion_row_frRFLB",
+                    "accordion_row_mc3FJR",
+                    "accordion_row_tRQVyK",
+                    "accordion_row_tqwMCF",
+                    "accordion_row_xBAFiA",
                     "accordion_row_T9aFUR"
                   ]
                 }
@@ -7851,152 +7911,10 @@
               "block_order": [
                 "accordion_A6k8FU"
               ]
-            },
-            "group_fYCAmi": {
-              "type": "group",
-              "name": "t:names.column",
-              "settings": {
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-start",
-                "vertical_alignment_flex_direction_column": "flex-start",
-                "gap": 25,
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "custom_height": 100,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "background_media": "none",
-                "video_position": "cover",
-                "background_image_position": "cover",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "overlay_style": "solid",
-                "gradient_direction": "to top",
-                "show_badge_pills": false,
-                "badge_text_list": "No Crash|Rich in Antioxidants|1 Months Supply|Natural Caffeine",
-                "badge_border_thickness": 1,
-                "badge_border_color": "#a8b5aa",
-                "badge_text_color": "#6f7f72",
-                "badge_transparent_background": true,
-                "badge_background_color": "#ffffff",
-                "badge_gap": 12,
-                "badge_padding_y": 8,
-                "badge_padding_x": 16,
-                "badge_font_size": 12,
-                "badge_border_radius": 50,
-                "badge_margin_top": 16,
-                "link": "",
-                "open_in_new_tab": false,
-                "placeholder": "",
-                "padding-block-start": 10,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {
-                "accordion_Gaijii": {
-                  "type": "accordion",
-                  "name": "t:names.accordion",
-                  "settings": {
-                    "icon": "caret",
-                    "dividers": true,
-                    "type_preset": "h6",
-                    "inherit_color_scheme": true,
-                    "color_scheme": "",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {
-                    "accordion_row_P8J7aM": {
-                      "type": "_accordion-row",
-                      "settings": {
-                        "heading": "How do I brew it?",
-                        "open_by_default": false,
-                        "icon": "none",
-                        "image_upload": "shopify://shop_images/Background.svg",
-                        "width": 12
-                      },
-                      "blocks": {}
-                    },
-                    "accordion_row_jXBnFx": {
-                      "type": "_accordion-row",
-                      "settings": {
-                        "heading": "Are the ingredients tested?",
-                        "open_by_default": false,
-                        "icon": "none",
-                        "image_upload": "shopify://shop_images/Background.svg",
-                        "width": 12
-                      },
-                      "blocks": {}
-                    },
-                    "accordion_row_pthykq": {
-                      "type": "_accordion-row",
-                      "settings": {
-                        "heading": "What's your returns policy?",
-                        "open_by_default": false,
-                        "icon": "none",
-                        "image_upload": "shopify://shop_images/Background.svg",
-                        "width": 12
-                      },
-                      "blocks": {}
-                    },
-                    "accordion_row_eKAWP8": {
-                      "type": "_accordion-row",
-                      "settings": {
-                        "heading": "How long does one pouch last?",
-                        "open_by_default": false,
-                        "icon": "none",
-                        "image_upload": "shopify://shop_images/Background.svg",
-                        "width": 12
-                      },
-                      "blocks": {}
-                    },
-                    "accordion_row_LwmT8y": {
-                      "type": "_accordion-row",
-                      "settings": {
-                        "heading": "How do you approach sustainability?",
-                        "open_by_default": false,
-                        "icon": "none",
-                        "image_upload": "shopify://shop_images/Background.svg",
-                        "width": 12
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "accordion_row_P8J7aM",
-                    "accordion_row_jXBnFx",
-                    "accordion_row_pthykq",
-                    "accordion_row_eKAWP8",
-                    "accordion_row_LwmT8y"
-                  ]
-                }
-              },
-              "block_order": [
-                "accordion_Gaijii"
-              ]
             }
           },
           "block_order": [
-            "group_dLBRb8",
-            "group_fYCAmi"
+            "group_dLBRb8"
           ]
         }
       },
