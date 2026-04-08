@@ -1785,8 +1785,8 @@
                 "placeholder": "",
                 "padding-block-start": 50,
                 "padding-block-end": 50,
-                "padding-inline-start": 15,
-                "padding-inline-end": 15
+                "padding-inline-start": 50,
+                "padding-inline-end": 50
               },
               "blocks": {
                 "text_PNjcJt": {
@@ -1896,8 +1896,8 @@
                 "placeholder": "",
                 "padding-block-start": 50,
                 "padding-block-end": 50,
-                "padding-inline-start": 15,
-                "padding-inline-end": 15
+                "padding-inline-start": 50,
+                "padding-inline-end": 50
               },
               "blocks": {
                 "text_rzXrtj": {
@@ -2007,8 +2007,8 @@
                 "placeholder": "",
                 "padding-block-start": 50,
                 "padding-block-end": 50,
-                "padding-inline-start": 15,
-                "padding-inline-end": 15
+                "padding-inline-start": 50,
+                "padding-inline-end": 50
               },
               "blocks": {
                 "text_Qg9rtQ": {
