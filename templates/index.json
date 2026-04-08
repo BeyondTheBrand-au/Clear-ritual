@@ -370,7 +370,7 @@
           "settings": {
             "content_direction": "row",
             "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
+            "horizontal_alignment": "center",
             "vertical_alignment": "center",
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-start",
@@ -426,13 +426,13 @@
                 "horizontal_alignment": "flex-start",
                 "vertical_alignment": "center",
                 "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-start",
+                "horizontal_alignment_flex_direction_column": "center",
                 "vertical_alignment_flex_direction_column": "flex-start",
                 "gap": 25,
-                "width": "fill",
-                "custom_width": 100,
+                "width": "custom",
+                "custom_width": 70,
                 "width_mobile": "fill",
-                "custom_width_mobile": 100,
+                "custom_width_mobile": 50,
                 "height": "fit",
                 "custom_height": 100,
                 "inherit_color_scheme": true,
@@ -612,215 +612,7 @@
                         "text_9AWgQE"
                       ]
                     },
-                    "accordion_row_tLywAH": {
-                      "type": "_accordion-row",
-                      "settings": {
-                        "heading": "Guava & Cherry Bits",
-                        "open_by_default": false,
-                        "icon": "none",
-                        "image_upload": "shopify://shop_images/Background.svg",
-                        "width": 12
-                      },
-                      "blocks": {
-                        "text_8bTi7B": {
-                          "type": "text",
-                          "name": "t:names.text",
-                          "settings": {
-                            "text": "<p>A vibrant burst of juicy flavour! The tropical sweetness of guava and the tangy punch of cherry mingle to create a mouth-watering, fruity profile that perfectly balances the earthy base of the yerba mate.</p>",
-                            "width": "fit-content",
-                            "max_width": "normal",
-                            "alignment": "left",
-                            "type_preset": "h6",
-                            "font": "var(--font-body--family)",
-                            "font_size": "1rem",
-                            "line_height": "normal",
-                            "letter_spacing": "normal",
-                            "case": "none",
-                            "wrap": "pretty",
-                            "color": "var(--color-foreground)",
-                            "background": false,
-                            "background_color": "#00000026",
-                            "corner_radius": 0,
-                            "padding-block-start": 0,
-                            "padding-block-end": 0,
-                            "padding-inline-start": 0,
-                            "padding-inline-end": 0
-                          },
-                          "blocks": {}
-                        }
-                      },
-                      "block_order": [
-                        "text_8bTi7B"
-                      ]
-                    }
-                  },
-                  "block_order": [
-                    "accordion_row_AtmaxT",
-                    "accordion_row_BbNXxb",
-                    "accordion_row_BrKByp",
-                    "accordion_row_tLywAH"
-                  ]
-                }
-              },
-              "block_order": [
-                "accordion_Qzkhip"
-              ]
-            },
-            "group_mGEa8q": {
-              "type": "group",
-              "name": "t:names.column",
-              "settings": {
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-start",
-                "vertical_alignment_flex_direction_column": "flex-start",
-                "gap": 25,
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "custom_height": 100,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "background_media": "none",
-                "video_position": "cover",
-                "background_image_position": "cover",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "overlay_style": "solid",
-                "gradient_direction": "to top",
-                "show_badge_pills": false,
-                "badge_text_list": "No Crash|Rich in Antioxidants|1 Months Supply|Natural Caffeine",
-                "badge_border_thickness": 1,
-                "badge_border_color": "#a8b5aa",
-                "badge_text_color": "#6f7f72",
-                "badge_transparent_background": true,
-                "badge_background_color": "#ffffff",
-                "badge_gap": 12,
-                "badge_padding_y": 8,
-                "badge_padding_x": 16,
-                "badge_font_size": 12,
-                "badge_border_radius": 50,
-                "badge_margin_top": 16,
-                "link": "",
-                "open_in_new_tab": false,
-                "placeholder": "",
-                "padding-block-start": 10,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {
-                "accordion_b8UdjR": {
-                  "type": "accordion",
-                  "name": "t:names.accordion",
-                  "settings": {
-                    "icon": "caret",
-                    "dividers": true,
-                    "type_preset": "h6",
-                    "inherit_color_scheme": true,
-                    "color_scheme": "",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {
-                    "accordion_row_7N8drJ": {
-                      "type": "_accordion-row",
-                      "settings": {
-                        "heading": "Chicory Root",
-                        "open_by_default": false,
-                        "icon": "none",
-                        "image_upload": "shopify://shop_images/Background.svg",
-                        "width": 12
-                      },
-                      "blocks": {
-                        "text_B6TJNN": {
-                          "type": "text",
-                          "name": "t:names.text",
-                          "settings": {
-                            "text": "<p>Adding a layer of rich, roasted depth, chicory root beautifully grounds the blend. It introduces a comforting, earthy undertone and offers natural prebiotic properties to help support a happy, balanced gut.</p>",
-                            "width": "fit-content",
-                            "max_width": "normal",
-                            "alignment": "left",
-                            "type_preset": "h6",
-                            "font": "var(--font-body--family)",
-                            "font_size": "1rem",
-                            "line_height": "normal",
-                            "letter_spacing": "normal",
-                            "case": "none",
-                            "wrap": "pretty",
-                            "color": "var(--color-foreground)",
-                            "background": false,
-                            "background_color": "#00000026",
-                            "corner_radius": 0,
-                            "padding-block-start": 0,
-                            "padding-block-end": 0,
-                            "padding-inline-start": 0,
-                            "padding-inline-end": 0
-                          },
-                          "blocks": {}
-                        }
-                      },
-                      "block_order": [
-                        "text_B6TJNN"
-                      ]
-                    },
-                    "accordion_row_VPd4Wj": {
-                      "type": "_accordion-row",
-                      "settings": {
-                        "heading": "Sweet Blackberry Leaves",
-                        "open_by_default": false,
-                        "icon": "none",
-                        "image_upload": "shopify://shop_images/Background.svg",
-                        "width": 12
-                      },
-                      "blocks": {
-                        "text_XKEtRC": {
-                          "type": "text",
-                          "name": "t:names.text",
-                          "settings": {
-                            "text": "<p>Nature's secret to a perfectly smooth brew. These delicate leaves provide a gentle, natural sweetness to the infusion without the need for added sugars, seamlessly rounding out the bolder flavours in the mix.</p>",
-                            "width": "fit-content",
-                            "max_width": "normal",
-                            "alignment": "left",
-                            "type_preset": "h6",
-                            "font": "var(--font-body--family)",
-                            "font_size": "1rem",
-                            "line_height": "normal",
-                            "letter_spacing": "normal",
-                            "case": "none",
-                            "wrap": "pretty",
-                            "color": "var(--color-foreground)",
-                            "background": false,
-                            "background_color": "#00000026",
-                            "corner_radius": 0,
-                            "padding-block-start": 0,
-                            "padding-block-end": 0,
-                            "padding-inline-start": 0,
-                            "padding-inline-end": 0
-                          },
-                          "blocks": {}
-                        }
-                      },
-                      "block_order": [
-                        "text_XKEtRC"
-                      ]
-                    },
-                    "accordion_row_GFfhH9": {
+                    "accordion_row_d4kgYr": {
                       "type": "_accordion-row",
                       "settings": {
                         "heading": "Apple Bits & Natural Flavour",
@@ -861,7 +653,130 @@
                         "text_xfG9cF"
                       ]
                     },
-                    "accordion_row_qkRTLn": {
+                    "accordion_row_UHjp7b": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "Sweet Blackberry Leaves",
+                        "open_by_default": false,
+                        "icon": "none",
+                        "image_upload": "shopify://shop_images/Background.svg",
+                        "width": 12
+                      },
+                      "blocks": {
+                        "text_XKEtRC": {
+                          "type": "text",
+                          "name": "t:names.text",
+                          "settings": {
+                            "text": "<p>Nature's secret to a perfectly smooth brew. These delicate leaves provide a gentle, natural sweetness to the infusion without the need for added sugars, seamlessly rounding out the bolder flavours in the mix.</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "h6",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_XKEtRC"
+                      ]
+                    },
+                    "accordion_row_FGGWLj": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "Chicory Root",
+                        "open_by_default": false,
+                        "icon": "none",
+                        "image_upload": "shopify://shop_images/Background.svg",
+                        "width": 12
+                      },
+                      "blocks": {
+                        "text_B6TJNN": {
+                          "type": "text",
+                          "name": "t:names.text",
+                          "settings": {
+                            "text": "<p>Adding a layer of rich, roasted depth, chicory root beautifully grounds the blend. It introduces a comforting, earthy undertone and offers natural prebiotic properties to help support a happy, balanced gut.</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "h6",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_B6TJNN"
+                      ]
+                    },
+                    "accordion_row_tLywAH": {
+                      "type": "_accordion-row",
+                      "settings": {
+                        "heading": "Guava & Cherry Bits",
+                        "open_by_default": false,
+                        "icon": "none",
+                        "image_upload": "shopify://shop_images/Background.svg",
+                        "width": 12
+                      },
+                      "blocks": {
+                        "text_8bTi7B": {
+                          "type": "text",
+                          "name": "t:names.text",
+                          "settings": {
+                            "text": "<p>A vibrant burst of juicy flavour! The tropical sweetness of guava and the tangy punch of cherry mingle to create a mouth-watering, fruity profile that perfectly balances the earthy base of the yerba mate.</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "h6",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_8bTi7B"
+                      ]
+                    },
+                    "accordion_row_HNA7xc": {
                       "type": "_accordion-row",
                       "settings": {
                         "heading": "Nothing Else",
@@ -904,21 +819,24 @@
                     }
                   },
                   "block_order": [
-                    "accordion_row_7N8drJ",
-                    "accordion_row_VPd4Wj",
-                    "accordion_row_GFfhH9",
-                    "accordion_row_qkRTLn"
+                    "accordion_row_AtmaxT",
+                    "accordion_row_BbNXxb",
+                    "accordion_row_BrKByp",
+                    "accordion_row_d4kgYr",
+                    "accordion_row_UHjp7b",
+                    "accordion_row_FGGWLj",
+                    "accordion_row_tLywAH",
+                    "accordion_row_HNA7xc"
                   ]
                 }
               },
               "block_order": [
-                "accordion_b8UdjR"
+                "accordion_Qzkhip"
               ]
             }
           },
           "block_order": [
-            "group_Jm7PGz",
-            "group_mGEa8q"
+            "group_Jm7PGz"
           ]
         }
       },
