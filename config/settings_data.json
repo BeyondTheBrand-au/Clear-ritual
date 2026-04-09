@@ -775,7 +775,8 @@
       " /* Optional: center any label above the input */.email-signup__label {text-align: center !important; margin-bottom: 5px; /* optional spacing */}",
       " /* Mobile tweaks */@media screen and (max-width: 749px) {.email-signup__input {max-width: 100%; /* slightly smaller input on mobile */ }}",
       " /* Prevent Horizon Email Signup block from jumping on submit */.email-signup {scroll-margin-top: 0;}",
-      "body {background-color: #013528;}"
+      "body {background-color: #013528;}",
+      ".paragraph {opacity: 0.7;}"
     ]
   }
 }
