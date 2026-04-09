@@ -7240,10 +7240,7 @@
       ],
       "custom_css": [
         ".icon-block__media {color: #a9dd66;}",
-        ".divider__line {border-block-color: #a9dd66;}",
-        ".layout-panel-flex--row.mobile-column {flex-flow: row nowrap !important; overflow-x: auto !important; overflow-y: visible !important; scroll-snap-type: x mandatory; scrollbar-width: none;}",
-        ".layout-panel-flex--row.mobile-column::-webkit-scrollbar {display: none;}",
-        ".layout-panel-flex--row.mobile-column > .group-block {flex-shrink: 0 !important; scroll-snap-align: start; width: 75vw !important; min-width: 75vw !important;}"
+        ".divider__line {border-block-color: #a9dd66;}"
       ],
       "name": "t:names.multicolumn",
       "settings": {
