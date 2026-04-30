@@ -2217,7 +2217,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/Clear_Ritual_Product_Shot.png",
+                "image": "shopify://shop_images/CR_Product_Shot_03.png",
                 "link": "",
                 "image_ratio": "portrait",
                 "width": "custom",
@@ -7280,7 +7280,7 @@
           "static": true,
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/Pouch_Packaging_Mockup_1.png",
+            "image": "shopify://shop_images/CR_Product_Shot_04.png",
             "link": "",
             "video_loop": true,
             "video_autoplay": false,
