@@ -209,7 +209,7 @@
       "name": "t:names.hero",
       "settings": {
         "media_type_1": "image",
-        "image_1": "shopify://shop_images/CR_Product_Shot_06.png",
+        "image_1": "shopify://shop_images/CR_Product_Shot_06_243d688c-f993-4692-945e-6d0d080b5e41.png",
         "video_1": "shopify://files/videos/Clear Ritual  Desktop Reel.mp4",
         "media_type_2": "image",
         "stack_media_on_mobile": false,
@@ -2812,7 +2812,7 @@
         "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
-        "color_scheme": "scheme-616b7566-20a1-4c09-bb05-bbfb291401c1",
+        "color_scheme": "scheme-58084d4c-a86e-4d0a-855e-a0966e5043f7",
         "background_media": "none",
         "video_position": "cover",
         "background_image": "shopify://shop_images/Gradient_Background.png",
@@ -7293,9 +7293,9 @@
           "type": "_content-without-appearance",
           "static": true,
           "settings": {
-            "horizontal_alignment_flex_direction_column": "center",
+            "horizontal_alignment_flex_direction_column": "flex-start",
             "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 30
+            "gap": 100
           },
           "blocks": {
             "custom_liquid_46YTgM": {
@@ -7793,7 +7793,37 @@
                         "image_upload": "shopify://shop_images/Background.svg",
                         "width": 12
                       },
-                      "blocks": {}
+                      "blocks": {
+                        "text_xUw9bi": {
+                          "type": "text",
+                          "name": "t:names.text",
+                          "settings": {
+                            "text": "<p>Clear Ritual is an effortless, deliciously fruity upgrade to your daily routine. Whether you're a coffee lover needing a jitter-free afternoon pick-me-up or you just want a clean alternative to sugary energy drinks, it keeps you naturally energised. You don't have to give up your morning coffee; it's simply a purposeful new way to add lasting vitality and focus to your day.</p>",
+                            "width": "fit-content",
+                            "max_width": "none",
+                            "alignment": "left",
+                            "type_preset": "rte",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 35,
+                            "padding-inline-end": 40
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_xUw9bi"
+                      ]
                     },
                     "accordion_row_EXHe8E": {
                       "type": "_accordion-row",
@@ -7804,7 +7834,37 @@
                         "image_upload": "shopify://shop_images/Background.svg",
                         "width": 12
                       },
-                      "blocks": {}
+                      "blocks": {
+                        "text_thw3cz": {
+                          "type": "text",
+                          "name": "t:names.text",
+                          "settings": {
+                            "text": "<p>You will begin to feel a gentle, revitalising lift within 15 to 30 minutes of your first sip.</p><p>Unlike the sudden, jittery spike you might get from coffee or artificial energy drinks, the natural caffeine in our yerba mate is balanced by plant-based compounds that help it absorb smoothly and steadily. It delivers a grounded, sustained wave of clarity that gradually awakens your mind and body, giving you reliable focus without the inevitable afternoon crash.</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "rte",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_thw3cz"
+                      ]
                     },
                     "accordion_row_CppAct": {
                       "type": "_accordion-row",
@@ -7815,18 +7875,37 @@
                         "image_upload": "shopify://shop_images/Background.svg",
                         "width": 12
                       },
-                      "blocks": {}
-                    },
-                    "accordion_row_VtNYrf": {
-                      "type": "_accordion-row",
-                      "settings": {
-                        "heading": "How much caffeine is in it?",
-                        "open_by_default": false,
-                        "icon": "none",
-                        "image_upload": "shopify://shop_images/Background.svg",
-                        "width": 12
+                      "blocks": {
+                        "text_tntYUK": {
+                          "type": "text",
+                          "name": "t:names.text",
+                          "settings": {
+                            "text": "<p>First, you'll taste the smooth, earthy blend of green mate and chicory root. Then, it opens up with refreshing flavours of juicy guava, cherry, and crisp apple. Finally, blackberry leaves and rosehip give it a naturally sweet finish without any need for artificial syrups.</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "rte",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
                       },
-                      "blocks": {}
+                      "block_order": [
+                        "text_tntYUK"
+                      ]
                     },
                     "accordion_row_frRFLB": {
                       "type": "_accordion-row",
@@ -7837,7 +7916,37 @@
                         "image_upload": "shopify://shop_images/Background.svg",
                         "width": 12
                       },
-                      "blocks": {}
+                      "blocks": {
+                        "text_kPYdKt": {
+                          "type": "text",
+                          "name": "t:names.text",
+                          "settings": {
+                            "text": "<p>Great for your body, gentle on the earth. Our packaging is fully recyclable, and our 100% natural blend is completely biodegradable. Once you've finished brewing, just toss your used leaves into your compost or food waste bin to keep them out of the landfill and return them right back to nature.</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "rte",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_kPYdKt"
+                      ]
                     },
                     "accordion_row_mc3FJR": {
                       "type": "_accordion-row",
@@ -7848,7 +7957,37 @@
                         "image_upload": "shopify://shop_images/Background.svg",
                         "width": 12
                       },
-                      "blocks": {}
+                      "blocks": {
+                        "text_GGq9ig": {
+                          "type": "text",
+                          "name": "t:names.text",
+                          "settings": {
+                            "text": "<p>One 100g pouch of Clear Ritual is designed to last you a whole month. With a recommended serving size of 1 to 2 teaspoons (5-10g), you get over 20 servings per pouch. Because our blend is so high-quality, you can actually reuse the leaves to get 2 to 4 delicious cups out of every single serving!</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "rte",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_GGq9ig"
+                      ]
                     },
                     "accordion_row_tRQVyK": {
                       "type": "_accordion-row",
@@ -7859,7 +7998,37 @@
                         "image_upload": "shopify://shop_images/Background.svg",
                         "width": 12
                       },
-                      "blocks": {}
+                      "blocks": {
+                        "text_TDyk6i": {
+                          "type": "text",
+                          "name": "t:names.text",
+                          "settings": {
+                            "text": "<p>Customer happiness is at the heart of what we do, and we want to ensure you are looked after every step of the way. If there is an issue with your product, we offer a 14-day return period to make things right. Please view our full returns policy for all the details.</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "rte",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_TDyk6i"
+                      ]
                     },
                     "accordion_row_tqwMCF": {
                       "type": "_accordion-row",
@@ -7870,7 +8039,37 @@
                         "image_upload": "shopify://shop_images/Background.svg",
                         "width": 12
                       },
-                      "blocks": {}
+                      "blocks": {
+                        "text_48ERVr": {
+                          "type": "text",
+                          "name": "t:names.text",
+                          "settings": {
+                            "text": "<p>Yes. Clear Ritual is blended in a top-tier facility that holds the highest food and drink certifications for the UK, Europe, and Australia. This guarantees our premium ingredients are prepared in the best possible environment for maximum quality and taste. Additionally, our packing facility is fully accredited for strict hygiene standards.</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "rte",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_48ERVr"
+                      ]
                     },
                     "accordion_row_xBAFiA": {
                       "type": "_accordion-row",
@@ -7881,7 +8080,37 @@
                         "image_upload": "shopify://shop_images/Background.svg",
                         "width": 12
                       },
-                      "blocks": {}
+                      "blocks": {
+                        "text_6hW3mg": {
+                          "type": "text",
+                          "name": "t:names.text",
+                          "settings": {
+                            "text": "<ol><li>Measure</li></ol><p>One heaped teaspoon into your infuser, teapot, or brew bag. No special equipment, just what you already own.</p><ol><li>Brew</li></ol><p>Pour at 80-90°C and steep 3-4 minutes. Iced: steep hot, pour over</p><p>ice. Cold brew overnight for the smoothest cup.</p><ol><li>Enjoy</li></ol><p>Naturally sweet on its own. Add oat milk or orange if you like. Feel it within the hour. No crash later.</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "rte",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_6hW3mg"
+                      ]
                     },
                     "accordion_row_T9aFUR": {
                       "type": "_accordion-row",
@@ -7892,14 +8121,43 @@
                         "image_upload": "shopify://shop_images/Background.svg",
                         "width": 12
                       },
-                      "blocks": {}
+                      "blocks": {
+                        "text_BP96KR": {
+                          "type": "text",
+                          "name": "t:names.text",
+                          "settings": {
+                            "text": "<p>Premium yerba mate and vibrant natural fruits are sourced from the world's finest growers, expertly blended in an industry-leading facility in Germany to ensure a perfect, high-quality flavour profile. Finally, every batch is proudly packed with love in Devon, UK, ready to become part of your daily ritual.</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "rte",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1rem",
+                            "line_height": "normal",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "var(--color-foreground)",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "text_BP96KR"
+                      ]
                     }
                   },
                   "block_order": [
                     "accordion_row_3FfyJH",
                     "accordion_row_EXHe8E",
                     "accordion_row_CppAct",
-                    "accordion_row_VtNYrf",
                     "accordion_row_frRFLB",
                     "accordion_row_mc3FJR",
                     "accordion_row_tRQVyK",
@@ -7955,140 +8213,6 @@
     "section_FBntd8": {
       "type": "section",
       "blocks": {
-        "group_PghhBa": {
-          "type": "group",
-          "settings": {
-            "content_direction": "column",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 12,
-            "width": "fit-content",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "custom_height": 100,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "background_media": "none",
-            "video_position": "cover",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "toggle_overlay": false,
-            "overlay_color": "#00000026",
-            "overlay_style": "solid",
-            "gradient_direction": "to top",
-            "show_badge_pills": false,
-            "badge_text_list": "No Crash|Rich in Antioxidants|1 Months Supply|Natural Caffeine",
-            "badge_border_thickness": 1,
-            "badge_border_color": "#a8b5aa",
-            "badge_text_color": "#6f7f72",
-            "badge_transparent_background": true,
-            "badge_background_color": "#ffffff",
-            "badge_gap": 12,
-            "badge_padding_y": 8,
-            "badge_padding_x": 16,
-            "badge_font_size": 12,
-            "badge_border_radius": 50,
-            "badge_margin_top": 16,
-            "link": "shopify://products/yerba-mate-guarana-loose-leaf-blend",
-            "open_in_new_tab": false,
-            "placeholder": "",
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "text_JbEYt4": {
-              "type": "text",
-              "name": "t:names.heading",
-              "settings": {
-                "text": "<h2>Your morning was<br/>made <em>for this.</em></h2>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "h2",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "text_9NmJp6": {
-              "type": "text",
-              "settings": {
-                "text": "<p>Nutrient rich. Focused energy. No crash. Naturally sweet. £25 for a full month's supply.</p>",
-                "width": "fit-content",
-                "max_width": "narrow",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "custom_liquid_ALr4AA": {
-              "type": "custom-liquid",
-              "name": "t:names.custom_liquid",
-              "settings": {
-                "custom_liquid": "{% assign product_handle = 'yerba-mate-guarana-loose-leaf-blend' %}\n{% assign ritual_product = all_products[product_handle] %}\n{% assign first_variant = ritual_product.selected_or_first_available_variant %}\n\n{% if ritual_product != blank and first_variant != blank %}\n  <form method=\"post\" action=\"/cart/add\">\n    <input type=\"hidden\" name=\"id\" value=\"{{ first_variant.id }}\">\n    <input type=\"hidden\" name=\"quantity\" value=\"1\">\n\n    <button type=\"submit\" class=\"button button--primary\">\n      START YOUR RITUAL - {{ first_variant.price | money }}\n    </button>\n  </form>\n{% endif %}"
-              },
-              "blocks": {}
-            },
-            "button_xVwpkw": {
-              "type": "button",
-              "disabled": true,
-              "settings": {
-                "label": "START YOUR RITUAL - $25",
-                "link": "shopify://collections/all",
-                "open_in_new_tab": false,
-                "style_class": "button",
-                "width": "fit-content",
-                "custom_width": 100,
-                "width_mobile": "fit-content",
-                "custom_width_mobile": 100
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "text_JbEYt4",
-            "text_9NmJp6",
-            "custom_liquid_ALr4AA",
-            "button_xVwpkw"
-          ]
-        },
         "group_gEnniM": {
           "type": "group",
           "name": "t:names.group",
@@ -8147,18 +8271,18 @@
               "settings": {
                 "image": "shopify://shop_images/CR_Product_Shot_05.png",
                 "link": "",
-                "image_ratio": "adapt",
-                "width": "fit-content",
+                "image_ratio": "square",
+                "width": "fill",
                 "custom_width": 100,
-                "width_mobile": "custom",
+                "width_mobile": "fill",
                 "custom_width_mobile": 50,
                 "height": "fit",
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
-                "border_radius": 0,
+                "border_radius": 20,
                 "padding-block-start": 0,
-                "padding-block-end": 0,
+                "padding-block-end": 40,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
@@ -8168,11 +8292,145 @@
           "block_order": [
             "image_iNHEU3"
           ]
+        },
+        "group_PghhBa": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "show_badge_pills": false,
+            "badge_text_list": "No Crash|Rich in Antioxidants|1 Months Supply|Natural Caffeine",
+            "badge_border_thickness": 1,
+            "badge_border_color": "#a8b5aa",
+            "badge_text_color": "#6f7f72",
+            "badge_transparent_background": true,
+            "badge_background_color": "#ffffff",
+            "badge_gap": 12,
+            "badge_padding_y": 8,
+            "badge_padding_x": 16,
+            "badge_font_size": 12,
+            "badge_border_radius": 50,
+            "badge_margin_top": 16,
+            "link": "shopify://products/yerba-mate-guarana-loose-leaf-blend",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 20,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "text_JbEYt4": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<h2>Your morning was<br/>made <em>for this.</em></h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h2",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_9NmJp6": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Nutrient rich. Focused energy. No crash. Naturally sweet. £25 for a full month's supply.</p>",
+                "width": "fit-content",
+                "max_width": "narrow",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 20,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "custom_liquid_ALr4AA": {
+              "type": "custom-liquid",
+              "name": "t:names.custom_liquid",
+              "settings": {
+                "custom_liquid": "{% assign product_handle = 'yerba-mate-guarana-loose-leaf-blend' %}\n{% assign ritual_product = all_products[product_handle] %}\n{% assign first_variant = ritual_product.selected_or_first_available_variant %}\n\n{% if ritual_product != blank and first_variant != blank %}\n  <form method=\"post\" action=\"/cart/add\">\n    <input type=\"hidden\" name=\"id\" value=\"{{ first_variant.id }}\">\n    <input type=\"hidden\" name=\"quantity\" value=\"1\">\n\n    <button type=\"submit\" class=\"button button--primary\">\n      START YOUR RITUAL - {{ first_variant.price | money }}\n    </button>\n  </form>\n{% endif %}"
+              },
+              "blocks": {}
+            },
+            "button_xVwpkw": {
+              "type": "button",
+              "disabled": true,
+              "settings": {
+                "label": "START YOUR RITUAL - $25",
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_JbEYt4",
+            "text_9NmJp6",
+            "custom_liquid_ALr4AA",
+            "button_xVwpkw"
+          ]
         }
       },
       "block_order": [
-        "group_PghhBa",
-        "group_gEnniM"
+        "group_gEnniM",
+        "group_PghhBa"
       ],
       "name": "t:names.image_with_text",
       "settings": {
