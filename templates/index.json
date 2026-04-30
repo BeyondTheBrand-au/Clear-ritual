@@ -2216,22 +2216,22 @@
             "image_CYbLRh": {
               "type": "image",
               "settings": {
-                "image": "shopify://shop_images/Productshot.png",
+                "image": "shopify://shop_images/Clear_Ritual_Product_Shot.png",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fit-content",
                 "custom_width": 100,
                 "width_mobile": "custom",
-                "custom_width_mobile": 50,
-                "height": "fit",
+                "custom_width_mobile": 100,
+                "height": "fill",
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
-                "border_radius": 0,
+                "border_radius": 20,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
+                "padding-inline-start": 10,
+                "padding-inline-end": 10
               },
               "blocks": {}
             }
@@ -2357,23 +2357,23 @@
                     "border_width": 1,
                     "border_opacity": 100,
                     "border_radius": 0,
-                    "padding-block-start": 0,
+                    "padding-block-start": 50,
                     "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
+                    "padding-inline-start": 10,
+                    "padding-inline-end": 10
                   },
                   "blocks": {
                     "text_Mqizba": {
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
-                        "text": "<p><strong>100g Resealable Pouch · 30+ Servings</strong></p>",
+                        "text": "<p>100g Resealable Pouch · 30+ Servings</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
                         "type_preset": "custom",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
+                        "font": "var(--font-subheading--family)",
+                        "font_size": "0.75rem",
                         "line_height": "normal",
                         "letter_spacing": "normal",
                         "case": "uppercase",
@@ -2397,9 +2397,9 @@
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
+                        "type_preset": "custom",
+                        "font": "var(--font-heading--family)",
+                        "font_size": "3.5rem",
                         "line_height": "normal",
                         "letter_spacing": "normal",
                         "case": "none",
@@ -2425,10 +2425,10 @@
                         "alignment": "left",
                         "type_preset": "custom",
                         "font": "var(--font-body--family)",
-                        "font_size": "1rem",
+                        "font_size": "0.875rem",
                         "line_height": "normal",
                         "letter_spacing": "normal",
-                        "case": "uppercase",
+                        "case": "none",
                         "wrap": "pretty",
                         "color": "var(--color-foreground)",
                         "background": false,
@@ -2491,7 +2491,7 @@
                             "width": "100%",
                             "alignment": "left",
                             "font": "var(--font-heading--family)",
-                            "font_size": "2.5rem",
+                            "font_size": "2rem",
                             "line_height": "normal",
                             "letter_spacing": "normal",
                             "case": "none",
@@ -2584,7 +2584,7 @@
                     "badge_gap": 12,
                     "badge_padding_y": 8,
                     "badge_padding_x": 16,
-                    "badge_font_size": 12,
+                    "badge_font_size": 10,
                     "badge_border_radius": 50,
                     "badge_margin_top": 16,
                     "link": "",
@@ -2690,8 +2690,8 @@
                     "style_class": "button-secondary",
                     "width": "fit-content",
                     "custom_width": 100,
-                    "width_mobile": "fit-content",
-                    "custom_width_mobile": 100
+                    "width_mobile": "custom",
+                    "custom_width_mobile": 70
                   },
                   "blocks": {}
                 }
@@ -2764,7 +2764,7 @@
                     "alignment": "left",
                     "type_preset": "custom",
                     "font": "var(--font-body--family)",
-                    "font_size": "0.75rem",
+                    "font_size": "0.625rem",
                     "line_height": "normal",
                     "letter_spacing": "normal",
                     "case": "uppercase",
@@ -2774,7 +2774,7 @@
                     "background_color": "#00000026",
                     "corner_radius": 0,
                     "padding-block-start": 0,
-                    "padding-block-end": 0,
+                    "padding-block-end": 20,
                     "padding-inline-start": 0,
                     "padding-inline-end": 0
                   },
@@ -2811,8 +2811,8 @@
         "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
-        "color_scheme": "scheme-5",
-        "background_media": "image",
+        "color_scheme": "scheme-616b7566-20a1-4c09-bb05-bbfb291401c1",
+        "background_media": "none",
         "video_position": "cover",
         "background_image": "shopify://shop_images/Gradient_Background.png",
         "background_image_position": "cover",
@@ -5042,22 +5042,22 @@
             "image_wyamG3": {
               "type": "image",
               "settings": {
-                "image": "shopify://shop_images/Productshot.png",
+                "image": "shopify://shop_images/Clear_Ritual_Product_Shot.png",
                 "link": "",
                 "image_ratio": "adapt",
-                "width": "fit-content",
+                "width": "custom",
                 "custom_width": 100,
                 "width_mobile": "custom",
-                "custom_width_mobile": 50,
+                "custom_width_mobile": 100,
                 "height": "fit",
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
-                "border_radius": 0,
+                "border_radius": 20,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
+                "padding-inline-start": 10,
+                "padding-inline-end": 70
               },
               "blocks": {}
             }
@@ -5183,23 +5183,23 @@
                     "border_width": 1,
                     "border_opacity": 100,
                     "border_radius": 0,
-                    "padding-block-start": 0,
+                    "padding-block-start": 40,
                     "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
+                    "padding-inline-start": 10,
+                    "padding-inline-end": 10
                   },
                   "blocks": {
                     "text_NBjmz9": {
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
-                        "text": "<p><strong>STILL NOT CONVINCED?</strong></p>",
+                        "text": "<p>STILL NOT CONVINCED?</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
                         "type_preset": "custom",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
+                        "font": "var(--font-subheading--family)",
+                        "font_size": "0.875rem",
                         "line_height": "normal",
                         "letter_spacing": "normal",
                         "case": "uppercase",
@@ -5208,8 +5208,8 @@
                         "background": false,
                         "background_color": "#00000026",
                         "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
+                        "padding-block-start": 20,
+                        "padding-block-end": 20,
                         "padding-inline-start": 0,
                         "padding-inline-end": 0
                       },
@@ -5251,10 +5251,10 @@
                         "alignment": "left",
                         "type_preset": "custom",
                         "font": "var(--font-body--family)",
-                        "font_size": "1rem",
+                        "font_size": "0.875rem",
                         "line_height": "normal",
                         "letter_spacing": "normal",
-                        "case": "uppercase",
+                        "case": "none",
                         "wrap": "pretty",
                         "color": "var(--color-foreground)",
                         "background": false,
@@ -5334,7 +5334,7 @@
                           "type": "text",
                           "name": "t:names.text",
                           "settings": {
-                            "text": "<p>Free</p>",
+                            "text": "<p><em>Free</em></p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -5446,8 +5446,8 @@
                     "placeholder": "",
                     "padding-block-start": 0,
                     "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
+                    "padding-inline-start": 10,
+                    "padding-inline-end": 10
                   },
                   "blocks": {}
                 }
@@ -5506,8 +5506,8 @@
                 "placeholder": "",
                 "padding-block-start": 0,
                 "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
+                "padding-inline-start": 10,
+                "padding-inline-end": 10
               },
               "blocks": {
                 "custom_liquid_ayxAyy": {
@@ -5621,8 +5621,8 @@
                     "background_color": "#00000026",
                     "corner_radius": 0,
                     "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
+                    "padding-block-end": 40,
+                    "padding-inline-start": 10,
                     "padding-inline-end": 0
                   },
                   "blocks": {}
@@ -5660,8 +5660,8 @@
         "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
-        "color_scheme": "scheme-5",
-        "background_media": "image",
+        "color_scheme": "scheme-616b7566-20a1-4c09-bb05-bbfb291401c1",
+        "background_media": "none",
         "video_position": "cover",
         "background_image": "shopify://shop_images/Gradient_Background.png",
         "background_image_position": "cover",
