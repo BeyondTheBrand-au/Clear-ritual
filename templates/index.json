@@ -485,8 +485,8 @@
                     "border_radius": 0,
                     "padding-block-start": 0,
                     "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
+                    "padding-inline-start": 30,
+                    "padding-inline-end": 30
                   },
                   "blocks": {
                     "accordion_row_AtmaxT": {
@@ -1663,7 +1663,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p><strong>WHY CLEAR RITUAL</strong></p>",
+                "text": "<p>WHY CLEAR RITUAL</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1704,8 +1704,8 @@
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
+                "padding-block-start": 20,
+                "padding-block-end": 20,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
@@ -1766,8 +1766,8 @@
             "placeholder": "",
             "padding-block-start": 0,
             "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
+            "padding-inline-start": 30,
+            "padding-inline-end": 30
           },
           "blocks": {
             "group_cmPHrF": {
@@ -2923,7 +2923,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<p>What <em>Our Customers</em> Love</p>",
+                "text": "<p>What Our <em>Customers</em> Love</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -2938,8 +2938,8 @@
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
+                "padding-block-start": 20,
+                "padding-block-end": 20,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
@@ -3000,8 +3000,8 @@
             "placeholder": "",
             "padding-block-start": 0,
             "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
+            "padding-inline-start": 30,
+            "padding-inline-end": 30
           },
           "blocks": {
             "group_8PPnJL": {
@@ -5787,8 +5787,8 @@
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
+                "padding-block-start": 20,
+                "padding-block-end": 20,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
@@ -5849,8 +5849,8 @@
             "placeholder": "",
             "padding-block-start": 0,
             "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
+            "padding-inline-start": 30,
+            "padding-inline-end": 30
           },
           "blocks": {
             "group_838kBc": {
@@ -7363,7 +7363,7 @@
                   "type": "text",
                   "name": "t:names.caption",
                   "settings": {
-                    "text": "<p><strong>OUR STORY</strong></p>",
+                    "text": "<p>OUR STORY</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -7380,7 +7380,7 @@
                     "corner_radius": 0,
                     "padding-block-start": 0,
                     "padding-block-end": 0,
-                    "padding-inline-start": 0,
+                    "padding-inline-start": 10,
                     "padding-inline-end": 0
                   },
                   "blocks": {}
@@ -7433,7 +7433,7 @@
                     "placeholder": "",
                     "padding-block-start": 0,
                     "padding-block-end": 0,
-                    "padding-inline-start": 0,
+                    "padding-inline-start": 10,
                     "padding-inline-end": 0
                   },
                   "blocks": {
@@ -7780,8 +7780,8 @@
                     "border_radius": 0,
                     "padding-block-start": 0,
                     "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
+                    "padding-inline-start": 30,
+                    "padding-inline-end": 30
                   },
                   "blocks": {
                     "accordion_row_3FfyJH": {
